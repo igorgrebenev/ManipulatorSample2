@@ -9,6 +9,8 @@ void setup() {
 }
 
 void loop() {
+  // хотим собрать пирамидку
+ 
   // устанавливаем начальное положение манипулятора
   int positions00[] = {27, 65, 120, 180, 15, 20};
   performAllServos(positions00);
